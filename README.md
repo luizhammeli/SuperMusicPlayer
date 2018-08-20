@@ -3,9 +3,10 @@ SuperMusicPlayer is just a very simple study using programatic layout to build a
 
 ## Implementation
 <p float="left">
-<img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/43677706-ee9c733e-97dc-11e8-8e38-c45519d99431.png" />
-<img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/43677705-ee7651c2-97dc-11e8-9941-20a7923c24b8.png" />
- <img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/43677698-d1d749a4-97dc-11e8-95b4-214dff382431.png" />
+<img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/44314879-61070d80-a3f4-11e8-8412-cdf97478088c.png" />
+<img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/44314880-61070d80-a3f4-11e8-90aa-958b51a6b8d8.png" />
+<img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/44314881-61070d80-a3f4-11e8-8db0-5adad65f0480.png" />
+ <img height="45%" width="45%" vspace="20" hspace="20" src="https://user-images.githubusercontent.com/12848020/44314882-619fa400-a3f4-11e8-90e8-92857479dfeb.png" /> 
 </p>
 
 ## Requirements
