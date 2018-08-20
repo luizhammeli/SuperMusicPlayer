@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		040E3F5F20134F6E00B2610F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E3F5E20134F6E00B2610F /* MainTabBarController.swift */; };
 		040FEDE6200589F200F3F751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FEDE5200589F200F3F751 /* AppDelegate.swift */; };
-		040FEDED200589F200F3F751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040FEDEC200589F200F3F751 /* Assets.xcassets */; };
 		040FEDF0200589F200F3F751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FEDEE200589F200F3F751 /* LaunchScreen.storyboard */; };
 		04411047200A7B32009AAE93 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04411046200A7B32009AAE93 /* HeaderCell.swift */; };
 		04411049200A7F16009AAE93 /* PlaylistCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04411048200A7F16009AAE93 /* PlaylistCollectionViewController.swift */; };
 		0441104B200B79D6009AAE93 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441104A200B79D6009AAE93 /* MusicCollectionViewCell.swift */; };
+		04DA32152128840900E203DB /* OptionViewFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA32142128840900E203DB /* OptionViewFooterCell.swift */; };
+		04DA321721297F2C00E203DB /* TitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA321621297F2C00E203DB /* TitleBar.swift */; };
+		04DA321921297F5C00E203DB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA321821297F5C00E203DB /* RoundedButton.swift */; };
+		04DA321B21297F9B00E203DB /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA321A21297F9B00E203DB /* CustomProgressBar.swift */; };
+		04DA321D21297FDA00E203DB /* PlayerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA321C21297FDA00E203DB /* PlayerOptionsView.swift */; };
+		04DA321F2129800000E203DB /* PlayerControlStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA321E2129800000E203DB /* PlayerControlStation.swift */; };
+		04DA32242129AB1200E203DB /* playerOptionsView+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA32232129AB1200E203DB /* playerOptionsView+GestureRecognizer.swift */; };
+		04DA32262129AB4600E203DB /* playerOptionsView+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA32252129AB4600E203DB /* playerOptionsView+CollectionView.swift */; };
+		38031913212079F000890349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38031912212079F000890349 /* Assets.xcassets */; };
+		38EB1AF5212261B300367AB4 /* ConfigurationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EB1AF4212261B300367AB4 /* ConfigurationBar.swift */; };
 		38EC19AA2115C13D00ADCA9E /* playlistController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19A92115C13D00ADCA9E /* playlistController+CollectionView.swift */; };
 		38EC19AE2115C38B00ADCA9E /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19AD2115C38B00ADCA9E /* PlayButton.swift */; };
 		38EC19B02115C46E00ADCA9E /* MixButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19AF2115C46E00ADCA9E /* MixButton.swift */; };
@@ -21,18 +30,29 @@
 		38EC19B52115C92600ADCA9E /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19B42115C92600ADCA9E /* CustomBackButton.swift */; };
 		38EC19B72115CA3900ADCA9E /* playlistController+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19B62115CA3900ADCA9E /* playlistController+Animations.swift */; };
 		38EC19B92115D85F00ADCA9E /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EC19B82115D85F00ADCA9E /* OptionButton.swift */; };
+		38EED66D211A67C200F0F4A2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EED66C211A67C200F0F4A2 /* PlayerViewController.swift */; };
+		38F066C02123BED100D140B1 /* OptionViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F066BF2123BED100D140B1 /* OptionViewHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040E3F5E20134F6E00B2610F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		040FEDE2200589F200F3F751 /* SuperMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040FEDE5200589F200F3F751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		040FEDEC200589F200F3F751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040FEDEF200589F200F3F751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040FEDF1200589F200F3F751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04411046200A7B32009AAE93 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		04411048200A7F16009AAE93 /* PlaylistCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCollectionViewController.swift; sourceTree = "<group>"; };
 		0441104A200B79D6009AAE93 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		04DA32142128840900E203DB /* OptionViewFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewFooterCell.swift; sourceTree = "<group>"; };
+		04DA321621297F2C00E203DB /* TitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBar.swift; sourceTree = "<group>"; };
+		04DA321821297F5C00E203DB /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		04DA321A21297F9B00E203DB /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
+		04DA321C21297FDA00E203DB /* PlayerOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOptionsView.swift; sourceTree = "<group>"; };
+		04DA321E2129800000E203DB /* PlayerControlStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlStation.swift; sourceTree = "<group>"; };
+		04DA32232129AB1200E203DB /* playerOptionsView+GestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playerOptionsView+GestureRecognizer.swift"; sourceTree = "<group>"; };
+		04DA32252129AB4600E203DB /* playerOptionsView+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playerOptionsView+CollectionView.swift"; sourceTree = "<group>"; };
+		38031912212079F000890349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EB1AF4212261B300367AB4 /* ConfigurationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationBar.swift; sourceTree = "<group>"; };
 		38EC19A92115C13D00ADCA9E /* playlistController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playlistController+CollectionView.swift"; sourceTree = "<group>"; };
 		38EC19AD2115C38B00ADCA9E /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		38EC19AF2115C46E00ADCA9E /* MixButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixButton.swift; sourceTree = "<group>"; };
@@ -40,6 +60,8 @@
 		38EC19B42115C92600ADCA9E /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
 		38EC19B62115CA3900ADCA9E /* playlistController+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playlistController+Animations.swift"; sourceTree = "<group>"; };
 		38EC19B82115D85F00ADCA9E /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
+		38EED66C211A67C200F0F4A2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		38F066BF2123BED100D140B1 /* OptionViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +97,36 @@
 				38EC19A72115BF8600ADCA9E /* Controller */,
 				38EC19A62115BF7000ADCA9E /* View */,
 				040FEDE5200589F200F3F751 /* AppDelegate.swift */,
-				040FEDEC200589F200F3F751 /* Assets.xcassets */,
+				38031912212079F000890349 /* Assets.xcassets */,
 				040FEDEE200589F200F3F751 /* LaunchScreen.storyboard */,
 				040FEDF1200589F200F3F751 /* Info.plist */,
 			);
 			path = SuperMusicPlayer;
+			sourceTree = "<group>";
+		};
+		04DA32202129808100E203DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04DA32212129810500E203DB /* PlayerOptionVIew */ = {
+			isa = PBXGroup;
+			children = (
+				04DA32222129811200E203DB /* Extensions */,
+				04DA321C21297FDA00E203DB /* PlayerOptionsView.swift */,
+			);
+			path = PlayerOptionVIew;
+			sourceTree = "<group>";
+		};
+		04DA32222129811200E203DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04DA32232129AB1200E203DB /* playerOptionsView+GestureRecognizer.swift */,
+				04DA32252129AB4600E203DB /* playerOptionsView+CollectionView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		3889BE702115EF4E0096F3B1 /* Button */ = {
@@ -89,8 +136,18 @@
 				38EC19AF2115C46E00ADCA9E /* MixButton.swift */,
 				38EC19B42115C92600ADCA9E /* CustomBackButton.swift */,
 				38EC19B82115D85F00ADCA9E /* OptionButton.swift */,
+				04DA321821297F5C00E203DB /* RoundedButton.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		38EB1AF3212261A100367AB4 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				38EB1AF4212261B300367AB4 /* ConfigurationBar.swift */,
+				04DA321621297F2C00E203DB /* TitleBar.swift */,
+			);
+			path = Bar;
 			sourceTree = "<group>";
 		};
 		38EC19A62115BF7000ADCA9E /* View */ = {
@@ -98,6 +155,7 @@
 			children = (
 				38EC19AC2115C28100ADCA9E /* CustomVIew */,
 				38EC19AB2115C26F00ADCA9E /* Cell */,
+				04DA321E2129800000E203DB /* PlayerControlStation.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +163,7 @@
 		38EC19A72115BF8600ADCA9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				38EED66B211A678C00F0F4A2 /* Player */,
 				38EC19A82115C0DB00ADCA9E /* Playlist */,
 				040E3F5E20134F6E00B2610F /* MainTabBarController.swift */,
 			);
@@ -123,6 +182,7 @@
 		38EC19AB2115C26F00ADCA9E /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				38F066BE2123BEA500D140B1 /* Player */,
 				04411046200A7B32009AAE93 /* HeaderCell.swift */,
 				0441104A200B79D6009AAE93 /* MusicCollectionViewCell.swift */,
 			);
@@ -132,7 +192,10 @@
 		38EC19AC2115C28100ADCA9E /* CustomVIew */ = {
 			isa = PBXGroup;
 			children = (
+				04DA32212129810500E203DB /* PlayerOptionVIew */,
+				38EB1AF3212261A100367AB4 /* Bar */,
 				3889BE702115EF4E0096F3B1 /* Button */,
+				04DA321A21297F9B00E203DB /* CustomProgressBar.swift */,
 			);
 			path = CustomVIew;
 			sourceTree = "<group>";
@@ -145,6 +208,24 @@
 				38EC19B62115CA3900ADCA9E /* playlistController+Animations.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		38EED66B211A678C00F0F4A2 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				04DA32202129808100E203DB /* Extensions */,
+				38EED66C211A67C200F0F4A2 /* PlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		38F066BE2123BEA500D140B1 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				38F066BF2123BED100D140B1 /* OptionViewHeaderCell.swift */,
+				04DA32142128840900E203DB /* OptionViewFooterCell.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,8 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38031913212079F000890349 /* Assets.xcassets in Resources */,
 				040FEDF0200589F200F3F751 /* LaunchScreen.storyboard in Resources */,
-				040FEDED200589F200F3F751 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,18 +299,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38EB1AF5212261B300367AB4 /* ConfigurationBar.swift in Sources */,
+				38F066C02123BED100D140B1 /* OptionViewHeaderCell.swift in Sources */,
 				38EC19B72115CA3900ADCA9E /* playlistController+Animations.swift in Sources */,
 				38EC19AE2115C38B00ADCA9E /* PlayButton.swift in Sources */,
 				38EC19B52115C92600ADCA9E /* CustomBackButton.swift in Sources */,
 				38EC19B92115D85F00ADCA9E /* OptionButton.swift in Sources */,
 				38EC19AA2115C13D00ADCA9E /* playlistController+CollectionView.swift in Sources */,
+				04DA321F2129800000E203DB /* PlayerControlStation.swift in Sources */,
 				0441104B200B79D6009AAE93 /* MusicCollectionViewCell.swift in Sources */,
+				04DA32152128840900E203DB /* OptionViewFooterCell.swift in Sources */,
 				040E3F5F20134F6E00B2610F /* MainTabBarController.swift in Sources */,
+				38EED66D211A67C200F0F4A2 /* PlayerViewController.swift in Sources */,
 				04411047200A7B32009AAE93 /* HeaderCell.swift in Sources */,
+				04DA321B21297F9B00E203DB /* CustomProgressBar.swift in Sources */,
 				38EC19B02115C46E00ADCA9E /* MixButton.swift in Sources */,
+				04DA321D21297FDA00E203DB /* PlayerOptionsView.swift in Sources */,
+				04DA321921297F5C00E203DB /* RoundedButton.swift in Sources */,
 				04411049200A7F16009AAE93 /* PlaylistCollectionViewController.swift in Sources */,
 				38EC19B32115C59D00ADCA9E /* playlistController+Alert.swift in Sources */,
 				040FEDE6200589F200F3F751 /* AppDelegate.swift in Sources */,
+				04DA32262129AB4600E203DB /* playerOptionsView+CollectionView.swift in Sources */,
+				04DA32242129AB1200E203DB /* playerOptionsView+GestureRecognizer.swift in Sources */,
+				04DA321721297F2C00E203DB /* TitleBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

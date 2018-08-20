@@ -39,15 +39,6 @@ class HeaderCell: UICollectionViewCell{
         return label
     }()
     
-    let optionLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "opções"
-        label.font = UIFont.boldSystemFont(ofSize: 12.5)
-        label.textColor = UIColor(red: 49/255, green: 50/255, blue: 49/255, alpha: 1)
-        return label
-    }()
-    
     let musicLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -64,32 +55,10 @@ class HeaderCell: UICollectionViewCell{
         return view
     }()
     
-    let downloadButton: OptionButton = {
-        let shareButton = OptionButton()
-        shareButton.button.setImage(#imageLiteral(resourceName: "down").withRenderingMode(.alwaysOriginal), for: .normal)
-        shareButton.label.text = "Downloads"
-        return shareButton
-    }()
-    
-    let qualityButton: OptionButton = {
-        let shareButton = OptionButton()
-        shareButton.button.setImage(#imageLiteral(resourceName: "eq").withRenderingMode(.alwaysOriginal), for: .normal)
-        shareButton.label.text = "Qualidade"
-        return shareButton
-    }()
-    
-    let configButton: OptionButton = {
-        let shareButton = OptionButton()
-        shareButton.button.setImage(#imageLiteral(resourceName: "star2").withRenderingMode(.alwaysOriginal), for: .normal)
-        shareButton.label.text = "Configurações"
-        return shareButton
-    }()
-    
-    let shareButton: OptionButton = {
-        let shareButton = OptionButton()
-        shareButton.button.setImage(#imageLiteral(resourceName: "share").withRenderingMode(.alwaysOriginal), for: .normal)
-        shareButton.label.text = "Compartilhar"
-        return shareButton
+    let configBar: ConfigarationBar = {
+        let configarationBar = ConfigarationBar()
+        configarationBar.translatesAutoresizingMaskIntoConstraints = false
+        return configarationBar
     }()
     
     //MARK: Init
@@ -109,7 +78,7 @@ class HeaderCell: UICollectionViewCell{
         self.addSubview(playlistTitleLabel)
         self.addSubview(playlistDescriptionLabel)
         self.addSubview(separatorView)
-        self.addSubview(optionLabel)
+        self.addSubview(configBar)
         self.addSubview(musicLabel)
         
         playlistLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 6).isActive = true
@@ -132,23 +101,12 @@ class HeaderCell: UICollectionViewCell{
         separatorView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -14).isActive = true
         separatorView.heightAnchor.constraint(equalToConstant: 0.8).isActive = true
         
-        optionLabel.topAnchor.constraint(equalTo: self.separatorView.bottomAnchor, constant: 18).isActive = true
-        optionLabel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 15).isActive = true
-        optionLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -15).isActive = true
-        optionLabel.heightAnchor.constraint(equalToConstant: 11).isActive = true
+        configBar.topAnchor.constraint(equalTo: self.separatorView.bottomAnchor, constant: 10).isActive = true
+        configBar.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        configBar.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        configBar.heightAnchor.constraint(equalToConstant: 86).isActive = true
         
-        let stackView = UIStackView(arrangedSubviews: [downloadButton, configButton, qualityButton, shareButton])
-        stackView.distribution = .fillEqually
-        stackView.axis = .horizontal
-        stackView.translatesAutoresizingMaskIntoConstraints = false
-        
-        self.addSubview(stackView)
-        stackView.topAnchor.constraint(equalTo: self.optionLabel.bottomAnchor, constant: 0).isActive = true
-        stackView.heightAnchor.constraint(equalToConstant: 75).isActive = true
-        stackView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 4).isActive = true
-        stackView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -4).isActive = true
-        
-        musicLabel.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: 32).isActive = true
+        musicLabel.topAnchor.constraint(equalTo: configBar.bottomAnchor, constant: 40).isActive = true
         musicLabel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 15).isActive = true
         musicLabel.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -15).isActive = true
         musicLabel.heightAnchor.constraint(equalToConstant: 11).isActive = true
